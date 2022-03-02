@@ -46,3 +46,35 @@ public class Main {
 
 
    }
+   }
+   }
+   
+   
+   package com.company;
+import java.util.Arrays;
+
+public class Main{
+    public static void main(String args[]){
+        //java program to sort numeric array and String array
+        int [] a1 = {
+                123, 345, 567 ,567,
+                3456, 346, 78, 357,
+        };
+
+        String [] a2 ={
+                "java",
+                "python",
+                "c++",
+                "PHP",
+
+        };
+
+        System.out.println("full array 1 : "+Arrays.toString(a1));
+        Arrays.sort(a1);
+        System.out.println("sorted : "+Arrays.toString(a1));
+        System.out.println("full array 2: "+Arrays.toString(a2));
+        Arrays.sort(a2);
+        System.out.println("sorted 2: "+Arrays.toString(a2));
+
+    }
+}
