@@ -92,3 +92,57 @@ public class Main{
         System.out.println("sum" +sum);
     }
 }
+
+
+
+/*package com.company;
+public class Main{
+    public static void main(String args[]){
+
+        //java program to calculate average using arrays
+
+        int[] a1 = {1,2,3,4,5,6,7,8,9};
+        int sum = 0;
+        for (int i = 0; i < a1.length; i++)
+            sum = sum + a1[i];
+        double avg = sum / a1.length;
+        System.out.println("avg value is :" +avg);
+
+    }
+}
+
+java methods 
+
+package com.company;
+public class Main{
+    public static int square(int num){
+        return num*num;
+
+    }
+
+    public static void main(String args[]){
+        int result;
+        result = square(10);
+        System.out.println("square root is: " +result);
+
+    }
+}
+
+package com.company;
+public class Main{
+    public int addNumbers(int a, int b){
+        int sum = a+b;
+        return sum;
+    }
+    public static void main(String args[]){
+        int num1 = 20;
+        int num2 = 10;
+
+        Main obj = new Main();
+
+        int result = obj.addNumbers(num1,num2);
+        System.out.println("Sum is: " +result);
+    }
+}*/
+
+
